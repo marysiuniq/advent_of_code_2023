@@ -16,7 +16,7 @@ def solve_part_one(in_list):
     greens = 0
     blues = 0
     for _, row in enumerate(in_list):
-        new_row = row.split()#
+        new_row = row.split()
         game_num = int(new_row[1][0:-1])
         reds = 0
         greens = 0
